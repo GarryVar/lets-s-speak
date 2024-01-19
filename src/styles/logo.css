@@ -1,0 +1,23 @@
+.logo__container {
+    display: grid;
+    grid-template-areas:
+        "logo-cloud logo-text"
+        "logo-cloud logo-phrase";
+    grid-template-columns: 33px 1fr;
+    column-gap: 12px;
+    padding-top: 24px;
+    padding-left: 30px;
+}
+
+.logo__cloud-shape {
+    grid-area: logo-cloud;
+}
+
+.logo__text-shape {
+    grid-area: logo-text;
+}
+
+.logo__phrase-shape {
+    margin: 0;
+    grid-area: logo-phrase;
+}

@@ -1,0 +1,10 @@
+.footer__layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer p {
+    opacity: .5;
+}

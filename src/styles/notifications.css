@@ -1,0 +1,39 @@
+.notifiactions {
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+    height: 40px;
+
+    border-left: 2px solid #B4BEF0;
+}
+
+.notifications__btn {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+}
+
+.notifiactions__num {
+    position: absolute;
+    right: 0;
+    top: -5px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 16px;
+    height: 16px;
+    background-color: #FF8F0B;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    color: #ffffff;
+}
