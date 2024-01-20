@@ -26,9 +26,15 @@
 }
 
 .page__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 260px;
+    grid-template-rows: 300px 140px 1fr;
+    gap: 20px;
+
+    padding: 30px;
+
     grid-area: main;
     background-color: #F1F3FE;
-    ;
 }
 
 .page__footer {
