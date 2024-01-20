@@ -33,3 +33,17 @@
     line-height: 40px;
     color: #3c425f;
 }
+
+.profile--new-message::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+
+    width: 15px;
+    height: 15px;
+
+    background-color: #0BC4CF;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
