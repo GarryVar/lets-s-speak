@@ -28,7 +28,7 @@
 .page__main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 260px;
-    grid-template-rows: 300px 140px 1fr;
+    grid-template-rows: 300px auto 1fr;
     gap: 20px;
 
     padding: 30px;
