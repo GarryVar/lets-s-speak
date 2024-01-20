@@ -1,0 +1,62 @@
+.offers {
+    grid-column: 1 / 4;
+}
+
+.offers__list {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.offers__item {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(60, 66, 95, 0.20);
+}
+
+.offers__title {
+    margin: 0;
+    margin-bottom: 4px;
+
+    color: #3C425F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.offers__text {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.offers__time {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    color: #0BC4CF;
+}
+
+.offers__link {
+    display: block;
+    text-align: right;
+
+    color: #576BCC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
